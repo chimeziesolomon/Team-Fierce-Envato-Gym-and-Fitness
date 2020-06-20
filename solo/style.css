@@ -1,0 +1,122 @@
+body, html {
+	font: 15px/1.5 Arial, Helvetica, sans-serif;
+	padding: 0;
+	margin: 0;
+	
+}
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 10px;
+    margin-left: 20px;
+    height: 700px;
+    grid-gap: 7px;
+   
+}
+.boxA .boxB .boxC {
+    display: grid;
+}
+
+img {
+    width: 388px;
+    padding-left: 24px;
+}
+h1 {
+    text-align: center;
+    background: black;
+    color: #ffffff;
+}
+p {
+    text-align: center;
+    color: #000000;
+}
+.box1 {
+    background: black;
+    height: 420px;
+    margin-left: 20px;
+    width: 430px;
+}
+.box1 p {
+    color: #ffffff;
+}
+.box1 h2 {
+    color: #ffffff;
+    text-align: center;
+}
+.box1 h3 {
+    color: #ffffff;
+    text-align: center;
+}
+.box1 h5 {
+    color: #ffffff;
+    text-align: center;
+}
+.box1 h6 {
+    color: #ffffff;
+    text-align: center;
+}
+.box2 {
+    background: black;
+    width: 430px;
+    height: 420px;
+}
+.box2 p {
+    color: #ffffff;
+}
+.box2 h2 {
+    color: #ffffff;
+    text-align: center;
+}
+.box2 h3 {
+    color: #ffffff;
+    text-align: center;
+}
+.box2 h5 {
+    color: #ffffff;
+    text-align: center;
+}
+.box2 h6 {
+    color: #ffffff;
+    text-align: center;
+}
+.box3 {
+    background: black;
+    width: 430px;
+    height: 420px;
+}
+.box3 p {
+    color: #ffffff;
+}
+.box3 h2 {
+    color: #ffffff;
+    text-align: center;
+}
+.box3 h3 {
+    color: #ffffff;
+    text-align: center;
+}
+.box3 h5 {
+    color: #ffffff;
+    text-align: center;
+}
+.box3 h6 {
+    color: #ffffff;
+    text-align: center;
+}
+@media (max-width: 768px) {
+    .grid {
+        grid-template-columns: 1fr;
+        grid-template-rows: 0.1fr 0.1fr 0.1fr;
+        grid-template-areas: 
+       "boxA"
+       "box1"
+       "boxB"
+       "box2"
+       "boxC"
+       "box3";
+    }
+}
+
+
+
+
